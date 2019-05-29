@@ -4,7 +4,7 @@
 #define Pin_LED PINB2
 #define Pin_VBat PINB3
 
-#define Config_BrightnessScale 32
+#define Config_BrightnessScale 16
 
 #define Config_VRef 1100
 #define Config_VoltageDividerScale 6
@@ -28,9 +28,9 @@
 #define Config_Power_Bad_Max 3599
 #define Config_Power_Bad_Min 0
 
-#define Config_Color_Good 0, 255, 0
+#define Config_Color_Good 0, 255, 255
 #define Config_Color_Okay 255, 255, 0
-#define Config_Color_Warn 255, 128, 0
+#define Config_Color_Warn 255, 0, 255
 #define Config_Color_Bad 255, 0, 0
 
 #endif
