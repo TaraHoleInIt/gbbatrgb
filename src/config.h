@@ -1,7 +1,7 @@
 #ifndef _CONFIG_H_
 #define _CONFIG_H_
 
-#define Pin_LED PINB2
+#define Pin_LED ws2812_pin
 #define Pin_VBat PINB3
 
 #define Config_BrightnessScale 16
@@ -28,9 +28,9 @@
 #define Config_Power_Bad_Max 3599
 #define Config_Power_Bad_Min 0
 
-#define Config_Color_Good 0, 255, 255
+#define Config_Color_Good 255, 255, 255
 #define Config_Color_Okay 255, 255, 0
-#define Config_Color_Warn 255, 0, 255
+#define Config_Color_Warn 255, 64, 0
 #define Config_Color_Bad 255, 0, 0
 
 #endif
